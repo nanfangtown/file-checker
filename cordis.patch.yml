@@ -1,0 +1,6 @@
+# FileChecker bundle layer.
+# One Host row carries the package so the Client half is discovered through
+# package.json `dsh.client`; the visible action lives in the browser.
+- insert:
+    - id: filechecker
+      name: filechecker

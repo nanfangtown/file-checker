@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "FileChecker",
+    "description": "Open a delivered file's location in one click; reuses DSH's authenticated native reveal route without adding file authority."
+  }
+}

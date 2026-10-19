@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="FileChecker">
+  <rect width="64" height="64" rx="14" fill="#0f5f8a"/>
+  <path d="M12 23.5c0-3 2.5-5.5 5.5-5.5h11l5.2 5.2h12.8c3 0 5.5 2.5 5.5 5.5v17c0 3-2.5 5.5-5.5 5.5h-29c-3 0-5.5-2.5-5.5-5.5z" fill="#eaf3ff"/>
+  <path d="M12 29h40v16.5c0 3-2.5 5.5-5.5 5.5h-29c-3 0-5.5-2.5-5.5-5.5z" fill="#bcd7f5"/>
+  <circle cx="43" cy="43" r="8.5" fill="#0f5f8a" stroke="#ffd166" stroke-width="3"/>
+  <path d="M49 49l7 7" stroke="#ffd166" stroke-width="4" stroke-linecap="round"/>
+</svg>

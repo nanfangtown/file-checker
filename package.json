@@ -1,0 +1,70 @@
+{
+  "name": "filechecker",
+  "version": "1.0.0",
+  "description": "DSH plugin that adds a one-click “Open location” action to delivered-file cards, revealing the file in the system file manager.",
+  "type": "module",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "nanfangtown",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nanfangtown/file-checker.git"
+  },
+  "homepage": "https://github.com/nanfangtown/file-checker#readme",
+  "bugs": {
+    "url": "https://github.com/nanfangtown/file-checker/issues"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "deliverables",
+    "file-manager",
+    "reveal",
+    "productivity"
+  ],
+  "engines": {
+    "node": ">=22.15.0",
+    "dsh": ">=0.2.1-rc.2 <0.3.0-0"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./package.json": "./package.json",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "docs/delivery-card.svg",
+    "README.md",
+    "README.zh.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "check": "node --check client.js && node --check index.js",
+    "pack:check": "npm pack --dry-run",
+    "prepublishOnly": "npm test && npm run check"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-deliverables"
+      ]
+    }
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
