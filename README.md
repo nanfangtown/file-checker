@@ -3,7 +3,6 @@
 English | [中文](README.zh.md)
 
 [![CI](https://github.com/nanfangtown/file-checker/actions/workflows/ci.yml/badge.svg)](https://github.com/nanfangtown/file-checker/actions/workflows/ci.yml)
-[![npm](https://img.shields.io/npm/v/filechecker.svg)](https://www.npmjs.com/package/filechecker)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 > A DSH plugin that puts a visible **Open location** button on every
@@ -39,6 +38,9 @@ Every `present` delivery card gets an action button with four states:
 ## Install
 
 ### From npm
+
+> The package name is reserved for npm as `filechecker`; until the first
+> publish, use the local checkout below.
 
 ```bash
 dsh plugin add filechecker

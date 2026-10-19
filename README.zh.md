@@ -3,7 +3,6 @@
 [English](README.md) | 中文
 
 [![CI](https://github.com/nanfangtown/file-checker/actions/workflows/ci.yml/badge.svg)](https://github.com/nanfangtown/file-checker/actions/workflows/ci.yml)
-[![npm](https://img.shields.io/npm/v/filechecker.svg)](https://www.npmjs.com/package/filechecker)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 > 给 DSH 的**交付文件卡片**加一个始终可见的「打开位置」按钮。点一下就在系统文件管理器里定位该文件。
@@ -33,6 +32,8 @@ DSH 的交付文件卡片可以点开预览，但“打开文件所在位置”�
 ## 安装
 
 ### 从 npm 安装
+
+> npm 包名已预留为 `filechecker`；在首次发布之前，请使用下面的本地目录安装。
 
 ```bash
 dsh plugin add filechecker
