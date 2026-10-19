@@ -39,8 +39,8 @@ Every `present` delivery card gets an action button with four states:
 
 ### From npm
 
-> The package name is reserved for npm as `filechecker`; until the first
-> publish, use the local checkout below.
+> The package is prepared for npm as `filechecker`; until the first publish,
+> use the local checkout below.
 
 ```bash
 dsh plugin add filechecker

@@ -33,7 +33,7 @@ DSH 的交付文件卡片可以点开预览，但“打开文件所在位置”�
 
 ### 从 npm 安装
 
-> npm 包名已预留为 `filechecker`；在首次发布之前，请使用下面的本地目录安装。
+> npm 包名计划使用 `filechecker`；在首次发布之前，请使用下面的本地目录安装。
 
 ```bash
 dsh plugin add filechecker
